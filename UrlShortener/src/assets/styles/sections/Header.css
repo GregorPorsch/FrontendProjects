@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3em;
+}
+
+.header-links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+
+.header-links .logo {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--very-dark-violet);
+}
+
+a {
+  color: var(--grayish-violet);
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--very-dark-violet);
+}
+
+.header-cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}

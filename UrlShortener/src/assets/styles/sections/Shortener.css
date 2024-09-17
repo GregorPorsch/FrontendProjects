@@ -1,0 +1,68 @@
+.shortener {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 3rem;
+}
+
+.shortener-input {
+  width: 100%;
+  padding: 2.5em;
+  background: url("/Users/gregorporsch/Documents/React/URL Shortener/project/src/assets/images/bg-shorten-desktop.svg");
+  background-size: cover;
+  background-color: var(--very-dark-blue);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+
+.shortener-input-field {
+  width: 100%;
+  position: relative;
+}
+
+.shortener-input input {
+  width: 100%;
+  padding: 0.7em 1.2em;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  color: var(--grayish-violet);
+  font-size: 1rem;
+  outline: none;
+  border: 2px solid var(--very-dark-blue);
+}
+
+.shortener-input input.invalid {
+  border: 2px solid var(--red);
+  color: var(--red);
+}
+
+.shortener-input input:focus {
+  border: 2px solid var(--cyan);
+}
+
+.shortener-input button {
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+
+.shortener-input .error-message {
+  color: var(--red);
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: -2em;
+  left: 0;
+}
+
+.shortener-output {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}

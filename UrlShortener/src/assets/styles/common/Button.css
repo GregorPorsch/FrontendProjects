@@ -1,0 +1,21 @@
+.btn {
+  background-color: var(--cyan);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.7em 1.2em;
+  border-radius: 2em;
+  font-size: 1rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.btn.copied {
+  opacity: 1;
+}

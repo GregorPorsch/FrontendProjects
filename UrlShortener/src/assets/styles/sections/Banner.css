@@ -1,0 +1,40 @@
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.banner-left {
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.banner-left h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.banner-left p {
+  font-size: 1.5rem;
+}
+
+.banner-left .btn {
+  margin-top: 1.5em;
+  font-size: 1.25rem;
+}
+
+.banner-right {
+  flex: 1;
+  box-sizing: border-box;
+  margin-right: -15%;
+}
+
+.banner-right img {
+  width: 115%;
+  height: auto;
+  object-fit: cover;
+}

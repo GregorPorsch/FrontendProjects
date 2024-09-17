@@ -1,0 +1,21 @@
+.booster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+  width: 100vw;
+  background: url("/Users/gregorporsch/Documents/React/URL Shortener/project/src/assets/images/bg-boost-desktop.svg")
+    no-repeat center center;
+  background-size: cover;
+  background-color: var(--very-dark-blue);
+  margin-left: calc(50% - 50vw);
+  margin-top: 3rem;
+}
+
+.booster h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+}

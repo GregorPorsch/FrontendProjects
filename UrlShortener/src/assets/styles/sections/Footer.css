@@ -1,0 +1,50 @@
+.footer {
+  background-color: var(--very-dark-violet);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 4em 10em;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  color: white;
+}
+
+.footer li {
+  color: var(--gray);
+}
+
+.footer li:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.footer-left h3 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.footer-center {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+}
+
+.footer .footer-topic {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.footer-right img:hover {
+  filter: brightness(0) saturate(100%) invert(47%) sepia(100%) saturate(1000%) hue-rotate(160deg)
+    brightness(100%) contrast(97%);
+  cursor: pointer;
+}

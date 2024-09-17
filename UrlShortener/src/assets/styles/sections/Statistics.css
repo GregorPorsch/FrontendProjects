@@ -1,0 +1,49 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  gap: 3rem;
+}
+
+.statistics-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.statistics-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.statistics-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start; /* Ändern Sie dies, um die Karten oben auszurichten */
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.statistics-card:first-child {
+  align-self: flex-start;
+  margin-bottom: 4rem;
+}
+
+.statistics-card:nth-child(2) {
+  align-self: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.statistics-card:last-child {
+  align-self: flex-end;
+  margin-top: 4rem;
+}
