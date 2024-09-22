@@ -8,7 +8,7 @@ URLShortener ist eine Webanwendung, die es Benutzern ermöglicht, lange URLs in 
 
 Dieses Projekt wurde mit den folgenden Technologien entwickelt:
 
-- **Reactthon**
+- **React**
 - **JavaScript**
 - **Axios**
 - **CSS**
